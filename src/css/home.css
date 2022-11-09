@@ -154,3 +154,46 @@ header .container {
 .meu-btn:hover span::before {
   width: 100%;
 }
+
+.logo {
+  height: 23px;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.menu-bar {
+  display: flex;
+}
+
+.menu-bar li a {
+  position: relative;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  color: #353535;
+}
+
+.menu-bar li a::before {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  left: auto;
+  right: 0;
+  bottom: 3px;
+  background: #353535;
+  transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+}
+
+.menu-bar li a:hover:before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.menu-bar .active-menu a::before {
+  width: 100%;
+}
