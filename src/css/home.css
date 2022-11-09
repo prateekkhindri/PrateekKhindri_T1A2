@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --font01: "Poppins", sans-serif;
+  --font02: "PT Sans", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font01);
+  background: #fff;
+  color: #353535;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: #353535;
+}
+
+button,
+select {
+  outline: none;
+  appearance: none;
+}
+
+button,
+.btn,
+select {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font01);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+span,
+i {
+  display: inline-block;
+}
+
+/* Header */
+header {
+  height: 60px;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0;
+}
+
+/* Menu btn */
+#check {
+  background-color: #000000;
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 0;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  position: relative;
+  width: 18px;
+  height: 2px;
+  background-color: #000000;
+}
+
+.menu-btn span::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.menu-btn span::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #000000;
+  transition: 0.5s;
+}
+
+.menu-btn:hover span::after,
+.meu-btn:hover span::before {
+  width: 100%;
+}
