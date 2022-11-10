@@ -69,3 +69,85 @@
   left: 102%;
 }
 /* Banner section end */
+
+/* About me section - about page */
+.about-me-bio .about-bio-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 65px;
+  padding-top: 80px;
+  border-bottom: 0.7px solid #7a7a7a;
+}
+
+.about-me-bio .bio-left {
+  width: 36.48%;
+}
+
+.about-me-bio .bio-left img {
+  width: 100%;
+}
+
+.about-me-bio .bio-right {
+  width: 63.52%;
+  padding-left: 30px;
+}
+
+.about-me-bio .bio-right .bio-description {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 38px;
+  color: #7a7a7a;
+}
+
+.about-me-bio .bio-right .my-info {
+  display: flex;
+  gap: 55px;
+  margin-top: 40px;
+}
+
+.about-me-bio .bio-right .my-info-box .my-info-item {
+  margin-bottom: 20px;
+}
+
+.about-me-bio .bio-right .my-info-box .my-info-item .info-title {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.2;
+}
+
+.about-me-bio .bio-right .my-info-box .my-info-item .info-description {
+  font-size: 19px;
+  line-height: 1.2;
+  color: #353535;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.about-me-bio .bio-right .my-info-box .my-info-item .info-description.link {
+  color: #3479ff;
+  text-decoration: underline;
+}
+
+.about-me-bio .bio-right .download-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  background: #ffcc00;
+  border-radius: 12px;
+  line-height: 50px;
+  padding: 8px 20px;
+  transition: 0.3s;
+}
+
+.about-me-bio .bio-right .download-btn:hover {
+  box-shadow: 0 5px 10px rgba(255, 204, 0, 0.662);
+}
+
+.about-me-bio .bio-right .download-btn svg {
+  margin-left: 12px;
+}
+/* About me section - about page */
