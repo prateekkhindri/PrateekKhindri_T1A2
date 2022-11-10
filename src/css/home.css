@@ -610,3 +610,196 @@ header .container {
   background: #f16500;
   transition: 0.2s all ease-in;
 }
+
+#tab-01:checked
+  ~ .tab-content
+  #tab-item-01
+  .progress-boxes:nth-child(2)
+  .progress {
+  width: 75%;
+  background: #254bdd;
+  transition: 0.3s all ease-in;
+}
+
+#tab-01:checked
+  ~ .tab-content
+  #tab-item-01
+  .progress-boxes:nth-child(3)
+  .progress {
+  width: 80%;
+  background: #fc0;
+  transition: 0.4s all ease-in;
+}
+
+#tab-01:checked
+  ~ .tab-content
+  #tab-item-01
+  .progress-boxes:last-child
+  .progress {
+  width: 70%;
+  background: #17a5e1;
+  transition: 0.5s all ease-in;
+}
+
+.progress:after {
+  content: "87%";
+  position: absolute;
+  top: -40px;
+  font-weight: 600;
+  font-size: 18px;
+  right: 0;
+}
+
+.progress-boxes:first-child .progress:after,
+.progress-boxes:first-child .progress-name h3 {
+  content: "80%";
+  color: #f16500;
+}
+
+.progress-boxes:nth-child(2) .progress:after,
+.progress-boxes:nth-child(2) .progress-name h3 {
+  content: "75%";
+  color: #254bdd;
+}
+
+.progress-boxes:nth-child(3) .progress:after,
+.progress-boxes:nth-child(3) .progress-name h3 {
+  content: "80%";
+  color: #fc0;
+}
+
+.progress-boxes:last-child .progress:after,
+.progress-boxes:last-child .progress-name h3 {
+  content: "70%";
+  color: #16a5e1;
+}
+
+#tab-01 ~ .tab-content #tab-item-01 .progress-boxes .progress {
+  width: 10%;
+}
+
+#tab-01,
+#tab-01 + span,
+#tab-02 + span {
+  left: 0%;
+  width: 174px;
+  background: #ffffff;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #353535;
+}
+
+#tab-01,
+#tab-01:checked + span,
+#tab-02:checked + span {
+  border: 1px solid #000000;
+  background: #ffffff;
+}
+
+#tab-01,
+#tab-01:hover + span,
+#tab-02:hover + span {
+  border: 1px solid #000000;
+  background: #ffffff;
+}
+
+#tab-02,
+#tab-02 + span {
+  left: calc(3% + 174px);
+  width: 174px;
+  border: 1px solid #ffffff;
+}
+
+#tab-01,
+#tab-01 + span {
+  border: 1px solid #ffffff;
+}
+
+#tab-item-01,
+#tab-item-02 {
+  padding-top: 100px;
+}
+
+.education-date h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #353535;
+}
+
+.education-degree h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #353535;
+}
+
+.course-name h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #353535;
+}
+
+.education-degree {
+  padding: 10px 0px 30px 0px;
+}
+
+.course-name:after {
+  width: 30px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background: #353535;
+  top: -10px;
+  border-radius: 2px;
+}
+
+.course-name {
+  position: relative;
+}
+
+.skill-education {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 20px;
+}
+
+.skills-area .my-description p {
+  padding-bottom: 0;
+  font-weight: 400;
+  font-size: 17px;
+  color: #7a7a7a;
+  line-height: 36px;
+}
+
+.skills-area .my-description p:nth-child(1) {
+  padding-bottom: 35px;
+}
+
+.skills-area .my-description {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.skills-area .section-contents .btn-two a {
+  gap: 10px;
+  background: #ffcc00;
+  border: 1px solid #ffcc00;
+}
+
+.section-contents .btn-two a .btn-icon svg path,
+.section-contents .btn-two a h4 {
+  stroke: #ffffff;
+}
+
+.skills-area .section-contents .btn-two a h4,
+.section-contents .btn-two a h4 {
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.skills-area .section-contents .btn-two a:hover {
+  background: #353535;
+  border: 1px solid #353535;
+}
