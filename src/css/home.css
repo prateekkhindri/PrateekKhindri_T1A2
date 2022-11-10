@@ -538,7 +538,7 @@ header .container {
   left: 0 !important;
   opacity: 1;
   visibility: visible;
-  transform: 0.3s;
+  transition: 0.3s;
   height: 100%;
 }
 
@@ -803,3 +803,140 @@ header .container {
   background: #353535;
   border: 1px solid #353535;
 }
+/* Skills section end */
+
+/* About me section - home page */
+.about-me-area {
+  display: flex;
+  position: relative;
+  background: linear-gradient(95.13deg, #ffcc00 -21.46%, #fff5cb 112.13%);
+}
+
+.section-contents {
+  margin: 30px 0px;
+}
+
+.about-me-content {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+.about-me-left,
+.about-me-right {
+  width: 50%;
+}
+
+.about-image {
+  display: flex;
+}
+
+.about-me-right .my-description p {
+  padding-bottom: 50px;
+  padding-top: 35px;
+  line-height: 36px !important;
+}
+
+.section-title h2 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #353535;
+  line-height: 100%;
+  font-family: var(--font02);
+}
+
+.about-me-area .section-contents .btn-two a h4 {
+  color: #353535;
+}
+
+.about-me-right .btn-two a:hover h4 {
+  color: #ffffff;
+}
+
+.about-me-right .btn-two a:hover {
+  background: #353535;
+}
+
+.about-me-right {
+  display: flex;
+  align-items: center;
+}
+
+.bubble {
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  overflow: hidden;
+}
+
+.bubble span {
+  background: linear-gradient(
+    180deg,
+    #52ab70 0%,
+    rgba(82, 171, 112, 0.48) 100%
+  );
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -105px;
+}
+
+.about-me-left {
+  position: relative;
+}
+
+.animation img {
+  width: 100%;
+  object-fit: none;
+}
+
+.animation {
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+.about-animation01 {
+  top: 20%;
+  left: 12%;
+}
+
+.about-image img {
+  z-index: 99;
+}
+
+.about-animation01 img {
+  animation: rotate-round infinite 1s;
+}
+
+@keyframes rotate-round {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.about-animation02 {
+  bottom: 20%;
+}
+
+.about-animation02 img {
+  animation: enlarge alternate-reverse infinite 1s;
+}
+
+@keyframes enlarge {
+  0% {
+    transform: scale3d(0);
+  }
+
+  100% {
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+}
+/* About me section home page end */
