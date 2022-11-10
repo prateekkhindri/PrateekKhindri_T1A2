@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --font01: "Poppins", sans-serif;
+  --font02: "PT Sans", sans-serif;
+}
+
+/* Banner section */
+.banner {
+  margin: 30px 0px;
+}
+
+.banner .banner-content-inner {
+  padding: 40px 30px 45px;
+  background-image: url("../assets/header-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.banner .title-head {
+  position: relative;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 60px;
+  font-family: var(--font02);
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.banner .title-head img {
+  position: absolute;
+  top: -10px;
+  margin-left: -10px;
+  width: auto;
+}
+
+.banner .header-description {
+  display: inline-block;
+  position: relative;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: 18px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.banner .header-description::before,
+.banner .header-description::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 84px;
+  height: 2px;
+  background: #fff;
+}
+
+.banner .header-description::before {
+  right: 102%;
+}
+
+.banner .header-description::after {
+  left: 102%;
+}
+/* Banner section end */
