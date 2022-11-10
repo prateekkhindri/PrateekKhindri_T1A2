@@ -556,7 +556,7 @@ header .container {
   background: #fff;
 }
 
-/* Skills area content */
+/* Skills area content - home page */
 .skills-area {
   padding: 65px 0 140px 0;
   overflow: hidden;
@@ -803,7 +803,7 @@ header .container {
   background: #353535;
   border: 1px solid #353535;
 }
-/* Skills section end */
+/* Skills section home page end */
 
 /* About me section - home page */
 .about-me-area {
@@ -940,3 +940,102 @@ header .container {
   }
 }
 /* About me section home page end */
+
+/* Static content and areas to excel static content section */
+.static,
+.services {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  padding: 100px 0px;
+}
+
+.static-card,
+.service-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.card-body,
+.serviceCard-body {
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgb(0 0 0 / 8%);
+  border-radius: 20px;
+  padding: 60px 30px;
+  transition: 0.5s ease;
+}
+
+.cards-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-icon img {
+  width: auto;
+  transform: rotateY(0deg);
+  transition: all 1s cubic-bezier(0.77, 0, 0.18, 1);
+}
+
+.serviceCard-body:hover > .cards-icon img,
+.card-body:hover > .cards-icon img {
+  transform: rotateY(360deg);
+}
+
+.cards-text h2 {
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 0px;
+  color: #353535;
+}
+
+.cards-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+.services {
+  background: #fff7d5;
+  flex-direction: column !important;
+}
+
+.service-card {
+  gap: 25px;
+  padding: 0 55px;
+}
+
+.titles {
+  text-align: center;
+  width: 50%;
+  margin-bottom: 80px;
+}
+
+.titles h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  color: #353535;
+  font-family: var(--font02);
+}
+
+.titles p {
+  margin-top: 15px;
+  color: #7a7a7a;
+}
+
+.serviceCard-body:nth-child(2) {
+  padding: 80px 30px !important;
+  margin-top: -20px;
+  background: #ffcc00;
+}
+/* Static content and areas to excel static content section end */
