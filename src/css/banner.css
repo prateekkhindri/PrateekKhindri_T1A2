@@ -71,6 +71,10 @@
 /* Banner section end */
 
 /* About me section - about page */
+.bio-description-mobile {
+  display: none;
+}
+
 .about-me-bio .about-bio-content-wrapper {
   display: flex;
   justify-content: center;
@@ -150,4 +154,134 @@
 .about-me-bio .bio-right .download-btn svg {
   margin-left: 12px;
 }
-/* About me section - about page */
+/* About me section - about page end */
+
+/* Timeline section - Experience and education */
+.about-timeline {
+  padding: 80px 0;
+}
+
+.about-timeline .timeline-content-wrapper {
+  display: flex;
+}
+
+.about-timeline .timeline-item-container {
+  width: 50%;
+}
+
+.about-timeline .timeline-left {
+  padding-right: 25px;
+}
+
+.about-timeline .timeline-right {
+  padding-left: 25px;
+}
+
+.about-timeline .timeline-item-wrapper {
+  position: relative;
+  padding-left: 75px;
+}
+
+.about-timeline .timeline-item-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10px;
+  bottom: 0;
+  width: 0;
+  border-left: 2px dashed #7a7a7a;
+}
+
+.about-timeline .timeline-item-container .timeline-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  font-family: var(--font02);
+  color: #353535;
+  margin-bottom: 35px;
+}
+
+.about-timeline .timeline-item-wrapper .timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+  padding-top: 10px;
+  height: 300px;
+}
+
+.about-timeline .timeline-item-wrapper .timeline-item .timeline-dot-wrap {
+  position: absolute;
+  top: 5px;
+  left: -64px;
+  transform: translateX(-50%);
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 2px dashed #7a7a7a;
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px #fff;
+}
+
+.about-timeline
+  .timeline-item-wrapper
+  .timeline-item
+  .timeline-dot-wrap
+  .timeline-dot {
+  content: "";
+  background: #52ab70;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+
+.about-timeline
+  .timeline-item-wrapper
+  .timeline-item.red
+  .timeline-dot-wrap
+  .timeline-dot {
+  background: #f17676;
+}
+
+.about-timeline
+  .timeline-item-wrapper
+  .timeline-item.yellow
+  .timeline-dot-wrap
+  .timeline-dot {
+  background: #ffd233;
+}
+
+.about-timeline .timeline-item-wrapper .timeline-item .timeline-date {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #7a7a7a;
+}
+
+.about-timeline .timeline-item-wrapper .timeline-item .timeline-date img {
+  margin-right: 10px;
+  width: auto;
+}
+
+.about-timeline .timeline-item-wrapper .timeline-item .timeline-item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #353535;
+  margin: 15px 0;
+}
+
+.about-timeline
+  .timeline-item-wrapper
+  .timeline-item
+  .timeline-item-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2;
+  color: #7a7a7a;
+}
+/* Timeline section - Experience and education end */
