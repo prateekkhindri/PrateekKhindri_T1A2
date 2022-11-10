@@ -436,7 +436,7 @@ header .container {
 }
 /* Hero section end */
 
-/* Skills section */
+/* Skills and education section - home page */
 /* Styling tabs */
 .ease {
   -webkit-transition: all 0.5s;
@@ -803,7 +803,7 @@ header .container {
   background: #353535;
   border: 1px solid #353535;
 }
-/* Skills section home page end */
+/* Skills and education section home page end */
 
 /* About me section - home page */
 .about-me-area {
@@ -1039,3 +1039,132 @@ header .container {
   background: #ffcc00;
 }
 /* Static content and areas to excel static content section end */
+
+/* Work experience section - home page */
+.experience-area {
+  min-height: 100vh;
+  width: 100%;
+  transition: all 0.3s ease;
+  padding: 80px 0px 60px 0px;
+  background: #fbfbfb;
+}
+
+.experience-timeline {
+  display: flex;
+  width: 100%;
+  gap: 60px;
+}
+
+.experience-right,
+.experience-left {
+  width: 45%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-title h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  color: #353535;
+  padding-bottom: 100px;
+}
+
+.experience-title h3 {
+  width: 80%;
+  font-weight: 600;
+  font-size: 24px;
+  color: #353535;
+  line-height: 180%;
+}
+
+.experience-date h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  color: #7a7a7a;
+}
+
+.experience-description p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 35px;
+  line-height: 200.5%;
+  color: #7a7a7a;
+}
+
+.timelines {
+  width: 0px;
+  height: 100%;
+  border-left: 2px dashed #7a7a7a;
+  position: absolute;
+  left: -30px;
+}
+
+.experience-timeline-box:last-child .experience-description p {
+  padding: 0;
+}
+
+.experience-timeline-box {
+  position: relative;
+}
+
+.timeline-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 100%;
+  border: 2px dashed #7a7a7a;
+  background: #ffffff;
+  left: -21px;
+  top: -2px;
+}
+
+.experience-timeline-box:hover .timeline-circle {
+  animation: spin linear infinite 2s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.experience-timeline-box:last-child .timelines:after {
+  content: "";
+  position: absolute;
+  left: -2.5px;
+  bottom: 0px;
+  height: 36px;
+  width: 2px;
+  background: #ffffff;
+}
+
+.timeline-circle:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-radius: 100%;
+}
+
+.experience-timeline-box:first-child .timeline-circle:before {
+  background: #52ab70;
+}
+
+.experience-timeline-box:nth-child(2) .timeline-circle:before {
+  background: #f17676;
+}
+
+.experience-timeline-box:last-child .timeline-circle:before {
+  background: #ffd233;
+}
+/* Work experience section - home page end */
