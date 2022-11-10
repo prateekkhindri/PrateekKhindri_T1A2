@@ -285,3 +285,111 @@
   color: #7a7a7a;
 }
 /* Timeline section - Experience and education end */
+
+/* Skills progress section */
+.skill-area {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.skill-area .section-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #353535;
+  margin-bottom: 35px;
+}
+
+.skill-area .progress-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.skill-area .progress-item {
+  min-width: 355px;
+  margin-bottom: 30px;
+}
+
+.skill-area .progress-item .progress-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-area .progress-item .progress-description .progress-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #353535;
+}
+
+.skill-area .progress-item .progress-bar {
+  position: relative;
+  height: 4px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background: #d9d9d9;
+}
+
+.skill-area .progress-item .progress-bar .progress-line {
+  background: #f16500;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.skill-area .progress-item .progress-bar .progress-line .progress-value {
+  content: "";
+  position: absolute;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f16500;
+  right: 0;
+  top: -45px;
+  transform: translateX(50%);
+}
+
+.skill-area
+  .progress-item.color-01
+  .progress-bar
+  .progress-line
+  .progress-value {
+  color: #254bdd;
+}
+
+.skill-area .progress-item.color-01 .progress-bar .progress-line {
+  background: #254bdd;
+  width: 80%;
+}
+
+.skill-area
+  .progress-item.color-02
+  .progress-bar
+  .progress-line
+  .progress-value {
+  color: #efc003;
+}
+
+.skill-area .progress-item.color-02 .progress-bar .progress-line {
+  background: #efc003;
+  width: 80%;
+}
+
+.skill-area
+  .progress-item.color-03
+  .progress-bar
+  .progress-line
+  .progress-value {
+  color: #16a5e1;
+}
+
+.skill-area .progress-item.color-03 .progress-bar .progress-line {
+  background: #16a5e1;
+}
+/* Skills progress section */
