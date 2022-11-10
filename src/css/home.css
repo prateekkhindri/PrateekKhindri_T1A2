@@ -1354,3 +1354,172 @@ header .container {
   outline: none;
 }
 /* Newsletter section - home page - static content end */
+
+/* Footer section */
+.footer {
+  width: 100%;
+  background: #575757;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 90px 0px;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 80px;
+}
+
+.footer-logo img {
+  height: 100%;
+}
+
+.footer-info {
+  width: 400px;
+}
+
+.footer-info h1 {
+  font-size: 36px;
+  color: #ffffff;
+  line-height: 60px;
+}
+
+.footer-info p {
+  font-size: 16px;
+  color: #bbb9b9;
+  text-align: left;
+  line-height: 30px;
+}
+
+.footer-btn a {
+  margin-bottom: 50px;
+  border: none;
+  background-color: #ffcc00;
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 16px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.footer-btn a:hover {
+  background: #353535;
+}
+
+.footer-btn a i {
+  margin-left: 8px;
+}
+
+.contact-info {
+  padding: 0px 0px 86px 0px;
+}
+
+.footer-email {
+  width: 184px;
+}
+
+.footer-phone h4,
+.footer-email h4,
+.footer-follow-btns h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #bbb9b9;
+  line-height: 35px;
+}
+
+.footer-follow-btns h3 {
+  color: #fff;
+}
+
+.footer-phone p,
+.footer-email p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-follow-btns {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-follow-btns span {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-follow-btns span a {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  background: #484848;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.footer-follow-btns span a:hover {
+  background: #fff;
+  color: #353535;
+}
+
+.footer-shapes .shape-01 {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  transform-origin: center;
+  z-index: -1;
+  animation: rotate 6s infinite linear;
+}
+
+.footer-shapes .shape-02 {
+  display: flex;
+  position: absolute;
+  top: 58%;
+  right: 2%;
+  width: 22px;
+  height: 22px;
+  transform-origin: center;
+  z-index: -1;
+  animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer-shapes .shape-03 {
+  position: absolute;
+  top: 58%;
+  right: 99%;
+  width: 18px;
+  z-index: -1;
+  height: 18px;
+}
+
+.footer-shapes .shape-03 img {
+  width: auto;
+}
+/* Footer section end*/
