@@ -1294,3 +1294,191 @@
   }
 }
 /* Project page end */
+
+/* Home page - projects section */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .project-information {
+    margin-left: 70px;
+  }
+
+  .projects-down .p-02 {
+    left: -4rem !important;
+  }
+
+  .mac-book {
+    width: 75% !important;
+  }
+
+  .mac-book .laptop {
+    width: 100% !important;
+  }
+
+  .scroll-down {
+    width: 87% !important;
+  }
+
+  .scroll-down .project-img-down {
+    width: 340px !important;
+    height: 230px !important;
+  }
+
+  .projects-down .p-03 {
+    right: 2rem;
+  }
+
+  .project-background {
+    top: 0px !important;
+    width: 88% !important;
+  }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1201px) {
+  .project-information {
+    margin-left: 80px;
+  }
+
+  .projects-down .p-02 {
+    left: -2rem;
+    top: 17rem;
+    width: 4rem;
+  }
+
+  .projects-down .p-03 {
+    right: 0rem;
+    top: 10rem;
+  }
+
+  .mac-book {
+    width: 70% !important;
+  }
+
+  .scroll-down {
+    width: 87% !important;
+  }
+
+  .mac-book .laptop {
+    width: 100% !important;
+  }
+
+  .scroll-down .project-img-down {
+    width: 289px !important;
+    height: 196px !important;
+  }
+
+  .project-background {
+    top: 0px !important;
+    width: 86% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1081px) {
+  .project-information {
+    margin-left: 60px;
+  }
+
+  .projects-down .p-02 {
+    left: -4rem;
+    top: 13rem;
+    width: 4rem;
+  }
+
+  .projects-down .p-03 {
+    right: 2rem;
+  }
+
+  .projects-down .p-01 {
+    right: 8rem;
+  }
+
+  .mac-book {
+    width: 65% !important;
+  }
+
+  .mac-book .laptop {
+    width: 100% !important;
+  }
+
+  .scroll-down .project-img-down {
+    width: 229px !important;
+    height: 157px !important;
+  }
+
+  .project-background {
+    top: 36px !important;
+    width: 320px !important;
+  }
+
+  .scroll-down {
+    top: 1px !important;
+    width: 87%;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+  .project-information {
+    margin-left: 45px;
+  }
+
+  .project-information .project-comment p {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .projects-down .p-01 {
+    right: 8rem;
+  }
+
+  .projects-down .p-01 svg {
+    width: 25px;
+  }
+
+  .projects-down .p-03 {
+    right: 2rem;
+    top: 5rem;
+    width: 1rem;
+  }
+
+  .projects-down .p-02 {
+    left: -2rem;
+    top: 11rem;
+    width: 4rem;
+  }
+
+  .project {
+    width: 180% !important;
+  }
+
+  .mac-book {
+    width: 73% !important;
+    margin: 90px auto !important;
+  }
+
+  .mac-book .laptop {
+    width: 100% !important;
+  }
+
+  .scroll-down .project-img-down {
+    width: 278px !important;
+    height: 185px !important;
+  }
+
+  .project-background {
+    top: 18px !important;
+    width: 372px !important;
+  }
+
+  .scroll-down {
+    width: 87% !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 781px) {
+  .projects-sec {
+    padding: 0 15px;
+  }
+
+  .scroll-down {
+    width: 87%;
+  }
+}
+/* Home page - projects section end */
