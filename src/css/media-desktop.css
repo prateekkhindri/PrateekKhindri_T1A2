@@ -279,3 +279,145 @@
   }
 }
 /* Skill and education section - home page end */
+
+/* About page - my information section */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .about-me-bio .bio-right .my-info-box .my-info-item .info-description {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1201px) {
+  .about-me-bio .bio-right .my-info-box .my-info-item .info-description {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1081px) {
+  .about-me-bio .bio-right .my-info-box .my-info-item .info-description {
+    margin-left: 0;
+  }
+
+  .about-timeline .timeline-item-wrapper .timeline-item {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+  .about-timeline .timeline-item-wrapper .timeline-item {
+    height: 446px;
+  }
+}
+
+@media only screen and (min-width: 621px) and (max-width: 781px) {
+  .about-timeline .timeline-item-wrapper .timeline-item {
+    margin-bottom: 10rem;
+    height: 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-me-bio .bio-left {
+    width: 45%;
+  }
+
+  .about-me-bio .bio-right {
+    width: 65%;
+  }
+
+  .about-me-bio .bio-right .my-info-box .my-info-item {
+    margin-bottom: 17px;
+  }
+
+  .about-me-bio .bio-right .bio-description {
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+
+  .about-me-bio .bio-right .my-info-box .my-info-item .info-description {
+    margin-left: 0;
+  }
+
+  .about-me-bio .bio-right .my-info-box .my-info-item .info-title,
+  .about-me-bio .bio-right .my-info-box .my-info-item .info-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-me-bio .bio-right .my-info {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 767px) {
+  .about-me-bio .bio-right .bio-description {
+    display: initial;
+  }
+
+  .about-me-bio .bio-description-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-me-bio .about-bio-content-wrapper {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 53px;
+  }
+
+  .about-me-bio .bio-left {
+    width: 100%;
+    margin: 30px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .about-me-bio .bio-left img {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .about-me-bio .bio-right {
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me-bio .bio-right .my-info {
+    justify-content: center;
+  }
+
+  .about-me-bio .bio-right .bio-description {
+    display: none;
+  }
+
+  .about-me-bio .bio-description-mobile {
+    padding: 0px 18px;
+    line-height: 2;
+    font-size: 15px;
+  }
+
+  .about-me-bio .bio-right .my-info {
+    gap: 15px;
+  }
+
+  .about-me-bio .bio-right .my-info-box .my-info-item .info-title,
+  .about-me-bio .bio-right .my-info-box .my-info-item .info-description {
+    font-size: 12px;
+  }
+
+  .about-me-bio .bio-right .download-btn {
+    margin-top: 15px;
+    padding: 5px 12px;
+  }
+
+  .about-me-bio .bio-right .my-info-box .my-info-item {
+    margin-bottom: 10px;
+  }
+}
+/* About page my information section end */
