@@ -1118,3 +1118,80 @@
   }
 }
 /* Blog page end */
+
+/* Individual blog pages */
+@media only screen and (max-width: 566px) {
+  .blog-details-desc-info h3 {
+    font-size: 16px;
+  }
+
+  .blog-details-desc-info p {
+    font-size: 14px;
+    line-height: 34px;
+  }
+}
+/* Individual blog pages end */
+
+/* Contact Page */
+@media only screen and (min-width: 1081px) and (max-width: 1200px) {
+  form .form-group .input-control input {
+    width: 280px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1081px) {
+  form .form-group .input-control input {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+  .contact-information,
+  .contact-form {
+    width: auto;
+  }
+
+  form {
+    width: auto;
+    margin-top: 40px;
+    padding: 0px;
+  }
+
+  form .form-group .input-control input {
+    width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 781px) {
+  .contact-information,
+  .contact-form {
+    width: auto;
+  }
+
+  .info-group {
+    width: auto;
+  }
+
+  .contact-text p {
+    font-size: 16px;
+  }
+
+  form {
+    width: auto;
+    padding: 0px !important;
+    margin-top: 35px;
+  }
+
+  form .form-group .input-control input {
+    width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+}
+/* Contact page end */
