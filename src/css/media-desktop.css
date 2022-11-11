@@ -525,3 +525,53 @@
     font-size: 15px !important;
   }
 }
+/* About page - Skill progress section end */
+
+/* Home page static content section */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .static-card {
+    grid-gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1201px) {
+  .static-card {
+    grid-gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1081px) {
+  .static-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-body:last-child {
+    grid-column: 1 / span 2;
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+  .static-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-body:last-child {
+    grid-column: 1 / span 2;
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 621px) and (max-width: 781px) {
+  .static .resize {
+    max-width: 30rem;
+  }
+}
