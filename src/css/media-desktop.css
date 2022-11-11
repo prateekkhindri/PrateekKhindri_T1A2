@@ -611,3 +611,35 @@
   }
 }
 /* Home page work experience section end*/
+@media only screen and (min-width: 992px) and (max-width: 1080px) {
+  .service-card {
+    gap: 15px;
+    padding: 0px 40px;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+  .service-card {
+    gap: 25px;
+    padding: 0px 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .serviceCard-body:nth-child(2) {
+    padding: 60px 30px !important;
+    margin-top: 0px;
+  }
+
+  .titles {
+    width: 50%;
+  }
+
+  .serviceCard-body:last-child {
+    grid-column: 1 / span 2;
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    justify-items: center;
+  }
+}
