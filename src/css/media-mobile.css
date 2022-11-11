@@ -39,3 +39,34 @@
   }
 }
 /* Banner end */
+
+/* Home page - about me section */
+@media only screen and (max-width: 499px) {
+  .section-title h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .section-contents .btn-two a {
+    width: 120px;
+    padding: 12px 0px;
+    border-radius: 10px;
+  }
+
+  .section-contents .btn-two a h4 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  .skills-area .my_description {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .about-me-right .btn-two a h4 {
+    font-size: 14px !important;
+  }
+}
+/* Home page about me section end */
