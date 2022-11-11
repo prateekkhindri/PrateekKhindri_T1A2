@@ -143,3 +143,60 @@
   }
 }
 /* Banner section end */
+
+/* Hero section - home page */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .hero-section {
+    padding-top: 28px;
+  }
+
+  .hero-left {
+    padding: 25px 0px;
+  }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1201px) {
+  .hero-section {
+    padding-top: 25px;
+  }
+
+  .title-two h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+
+@media only screen and (max-width: 1081px) {
+  .hero-section .hero-content {
+    display: block;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+
+  .hero-img,
+  .hero-right {
+    position: relative;
+    justify-content: center;
+  }
+
+  .hero-section {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .social-links-two {
+    display: flex;
+  }
+
+  .social-links-one {
+    display: none;
+  }
+
+  .go-down {
+    display: none;
+  }
+}
+/* Hero section - home page end */

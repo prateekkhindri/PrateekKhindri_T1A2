@@ -233,9 +233,9 @@ header .container {
 }
 
 .wave-hand {
+  display: flex;
   padding-left: 10px;
   animation: wave alternate-reverse 0.8s infinite;
-  display: flex;
 }
 
 @keyframes wave {
