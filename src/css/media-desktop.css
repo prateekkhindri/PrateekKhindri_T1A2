@@ -808,3 +808,135 @@
   }
 }
 /* Home page newsletter static content section end */
+
+/* Footer section */
+@media only screen and (min-width: 992px) and (max-width: 1080px) {
+  .footer-follow-btns {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-email {
+    width: 310px;
+  }
+
+  .footer-info {
+    width: 412px;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+  .footer-logo {
+    height: 30px;
+    margin-bottom: 85px;
+  }
+
+  .footer-btn a {
+    padding: 20px 24px;
+  }
+
+  .footer-info h1 {
+    font-size: 30px;
+  }
+
+  .footer-info {
+    width: 350px;
+  }
+
+  .footer-top {
+    padding: 70px 0px;
+  }
+
+  .footer-follow-btns span {
+    gap: 15px;
+  }
+
+  .footer-email {
+    width: 310px;
+  }
+
+  .footer-follow-btns {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 781px) {
+  .footer .resize {
+    padding: 0 15px;
+  }
+
+  .footer-shapes {
+    display: none;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 0px 0px 0px;
+  }
+
+  .footer-phone h4,
+  .footer-email h4 {
+    font-size: 16px;
+  }
+
+  .footer-phone p,
+  .footer-email p,
+  .footer-follow-btns h3 {
+    font-size: 16px;
+  }
+
+  .contact-info {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-info {
+    width: 100%;
+  }
+
+  .footer-logo {
+    height: 25px;
+    margin-bottom: 50px;
+  }
+
+  .footer-info h1 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .footer-info p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .footer-follow-btns {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .contact-info {
+    padding: 0px 0px 80px 0px;
+  }
+
+  .footer-btn a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 621px) and (max-width: 781px) {
+  .footer-follow-btns span a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-email {
+    width: auto;
+  }
+}
+/* Footer section end */
