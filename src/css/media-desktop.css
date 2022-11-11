@@ -1,0 +1,111 @@
+/* Resize responsive */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .resize {
+    max-width: 70rem;
+  }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1201px) {
+  .resize {
+    max-width: 65rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1081px) {
+  .resize {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+  .resize {
+    max-width: 46rem;
+  }
+}
+
+/* Header section */
+@media (max-width: 767px) {
+  header {
+    height: 60px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #check {
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+    z-index: 99999;
+  }
+
+  .menu-bar {
+    display: block;
+    padding-top: 60px;
+    background-color: #ffffff;
+    width: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 3px 3px 300px 5px rgb(0 0 0 / 42%);
+    z-index: 9999;
+    transition: 0.3s;
+  }
+
+  .menu-bar li a {
+    display: block;
+    padding: 10px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+
+    color: #353535;
+  }
+
+  .menu-bar li a:hover {
+    background-color: #7a7a7a27;
+  }
+
+  .menu-bar li a::before {
+    display: none;
+  }
+
+  .menu-bar .active-menu a {
+    background-color: #7a7a7a27;
+  }
+
+  #check:checked ~ .menu-bar {
+    width: 80%;
+  }
+
+  /* active menu  */
+  #check ~ .menu-btn {
+    position: relative;
+    right: 0px;
+    transition: 0.3s;
+  }
+
+  #check:checked ~ .menu-btn {
+    right: 10px;
+  }
+
+  #check:checked ~ .menu-btn span::after {
+    display: none;
+  }
+
+  #check:checked ~ .menu-btn span::before {
+    width: 100%;
+    transform: translateY(5px) rotate(-270deg);
+    transition: 0.3s;
+  }
+
+  #check:checked ~ .menu-btn span {
+    transform: rotate(135deg);
+    transition: 0.3s;
+  }
+}
