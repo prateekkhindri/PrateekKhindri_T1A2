@@ -763,7 +763,7 @@ header .container {
   position: relative;
 }
 
-.skill-education {
+.skills-education {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -1655,7 +1655,7 @@ header .container {
   animation: rotate 6s infinite linear;
 }
 
-.projects-down p-02 {
+.projects-down .p-02 {
   left: 3rem;
   top: 22rem;
   position: absolute;
