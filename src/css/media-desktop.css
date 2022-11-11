@@ -493,3 +493,35 @@
   }
 }
 /* About page - timeline section end */
+
+/* About page - Skill progress section */
+@media only screen and (min-width: 781px) and (max-width: 992px) {
+  .skill-area .progress-item {
+    min-width: 345px;
+  }
+}
+
+@media (max-width: 767px) {
+  .skill-area {
+    padding-bottom: 30px;
+  }
+
+  .skill-area .progress-item {
+    min-width: 280px;
+  }
+
+  .skill-area .section-heading {
+    margin-bottom: 29px;
+    font-size: 24px;
+    line-height: 15px;
+  }
+
+  .skill-area .progress-item .progress-description .progress-title {
+    font-size: 15px;
+  }
+
+  .skill-area .progress-item .progress-description .progress-value,
+  .progress-value {
+    font-size: 15px !important;
+  }
+}
