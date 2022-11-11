@@ -200,3 +200,69 @@
   }
 }
 /* Hero section - home page end */
+
+/* About me section - home page */
+@media only screen and (max-width: 1085px) {
+  .about-me-left {
+    transform: rotateY(180deg);
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .about-me-area {
+    padding-top: 100px;
+  }
+
+  .animation {
+    z-index: -1;
+  }
+
+  .about-me-left,
+  .about-me-right {
+    width: 100%;
+  }
+
+  .bubble {
+    left: 30px;
+    right: auto;
+  }
+
+  .about-image img {
+    width: 50%;
+  }
+
+  .about-animation01 {
+    top: 20%;
+    left: 2%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .about-image img {
+    width: 100%;
+  }
+
+  .bubble {
+    display: none;
+  }
+
+  .about-animation02 {
+    bottom: 30%;
+    left: 5%;
+  }
+
+  .about-animation03 {
+    display: none;
+  }
+
+  .about-me-right .my-description p {
+    padding-bottom: 35px;
+    padding-top: 25px;
+    font-size: 15px;
+    line-height: 165%;
+  }
+}
+/* About me section - home page end */
