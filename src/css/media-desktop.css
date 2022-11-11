@@ -266,3 +266,16 @@
   }
 }
 /* About me section - home page end */
+
+/* Skill and education section - home page */
+@media only screen and (max-width: 1082px) {
+  .skills-content {
+    display: grid;
+  }
+
+  .skills-right,
+  .skills-left {
+    width: 100%;
+  }
+}
+/* Skill and education section - home page end */
