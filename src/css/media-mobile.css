@@ -1,0 +1,41 @@
+/* About page */
+@media only screen and (min-width: 320px) and (max-width: 781px) {
+  .about-timeline,
+  .skill-area {
+    padding: 40px 0;
+    margin: 40px 0;
+  }
+}
+/* About page end */
+
+/* Banner section */
+@media (max-width: 767px) {
+  .banner {
+    margin: 0px;
+  }
+
+  .banner .container {
+    padding: 0;
+  }
+
+  .banner .container .banner-content-inner {
+    border-radius: 0;
+  }
+
+  .banner .title-head {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .banner .header-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner .header-description::before,
+  .banner .header-description::after {
+    display: none;
+  }
+}
+/* Banner end */
