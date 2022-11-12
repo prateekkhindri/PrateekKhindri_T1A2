@@ -70,3 +70,19 @@
   }
 }
 /* Home page about me section end */
+
+/* About page - timeline section */
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+  .about-timeline .timeline-item-wrapper .timeline-item {
+    margin-bottom: 30rem;
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 50px) and (max-width: 320px) {
+  .about-timeline .timeline-item-wrapper .timeline-item {
+    margin-bottom: 30rem;
+    height: 150px;
+  }
+}
+/* About page - timeline section end */
