@@ -311,8 +311,8 @@
 
 @media only screen and (min-width: 621px) and (max-width: 781px) {
   .about-timeline .timeline-item-wrapper .timeline-item {
-    margin-bottom: 10rem;
-    height: 80px;
+    margin-bottom: 15rem;
+    height: 200px;
   }
 }
 
