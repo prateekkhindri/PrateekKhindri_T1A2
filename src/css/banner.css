@@ -71,10 +71,6 @@
 /* Banner section end */
 
 /* About me section - about page */
-.bio-description-mobile {
-  display: none;
-}
-
 .about-me-bio .about-bio-content-wrapper {
   display: flex;
   justify-content: center;
