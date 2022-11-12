@@ -158,3 +158,91 @@
   }
 }
 /* Home page - Hero section end */
+
+/* Home page - Skill and education section */
+@media only screen and (max-width: 499px) {
+  #tab-01,
+  #tab-01 + span,
+  #tab-02 + span {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  #tab-02,
+  #tab-02 + span {
+    left: calc(3% + 120px);
+    width: 120px;
+  }
+
+  .tabs > input,
+  .tabs > span {
+    height: 50px;
+    line-height: 48px;
+  }
+
+  .course-name h2 {
+    font-size: 20px;
+  }
+
+  .education-date h4 {
+    font-size: 16px;
+  }
+
+  .education-degree h4 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .skills-area .section-contents .btn-two a h4 {
+    font-size: 12px;
+  }
+
+  .skills-area .section-contents .btn-two a {
+    width: 125px;
+    padding: 12px 0px;
+  }
+
+  .skills-area .my-description p {
+    font-size: 15px;
+    line-height: 200%;
+  }
+
+  .progress-name h3 {
+    font-size: 14px;
+    line-height: 180%;
+  }
+
+  .progress-bar {
+    height: 6px;
+  }
+
+  .progress:after {
+    font-size: 14px;
+  }
+
+  .progress-boxes:not(.progress-boxes:last-child) {
+    padding-bottom: 40px;
+  }
+
+  .skills-area .my-description p:nth-child(1) {
+    padding-bottom: 25px;
+  }
+
+  .education-date h4 {
+    font-size: 14px;
+  }
+
+  .education-degree h4 {
+    font-size: 14px;
+  }
+
+  .course-name h2 {
+    font-size: 16px;
+  }
+
+  .education-degree {
+    padding: 10px 0px 25px 0px;
+  }
+}
+/* Home page skills and education section */
