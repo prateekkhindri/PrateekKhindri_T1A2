@@ -369,3 +369,67 @@
   }
 }
 /* Home static section end */
+
+/* Home page - Areas to excel section */
+@media only screen and (min-width: 320px) and (max-width: 781px) {
+  .service-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    padding: 0 15px;
+  }
+
+  .serviceCard-body:nth-child(2) {
+    padding: 30px 20px !important;
+    margin-top: 0;
+  }
+
+  .titles {
+    width: 85%;
+  }
+
+  .titles p {
+    font-size: 14px;
+  }
+
+  .titles h1 {
+    font-size: 25px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+  .serviceCard-body {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 50px) and (max-width: 320px) {
+  .service-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    padding: 0 12px;
+  }
+
+  .titles p {
+    font-size: 14px;
+  }
+
+  .serviceCard-body:nth-child(2) {
+    padding: 30px 20px !important;
+    margin-top: 0;
+  }
+
+  .serviceCard-body {
+    display: flex;
+  }
+
+  .titles {
+    width: 80%;
+  }
+
+  .titles h1 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+/* Home page - Areas to excel section end */
