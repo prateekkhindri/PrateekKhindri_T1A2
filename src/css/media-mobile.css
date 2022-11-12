@@ -86,3 +86,75 @@
   }
 }
 /* About page - timeline section end */
+
+/* Home page - Hero section */
+@media only screen and (max-width: 566px) {
+  .social-links {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    gap: 10px;
+  }
+
+  .title-two h1 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .title-one h4 {
+    font-size: 18px;
+  }
+
+  .my-description p {
+    font-size: 16px;
+    padding-bottom: 30px;
+    line-height: 190%;
+  }
+
+  .social-links-one {
+    display: none;
+  }
+
+  .social-link a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social-link a i {
+    font-size: 14px;
+  }
+
+  .social-links h4 {
+    font-size: 15px;
+    padding-right: 10px;
+  }
+
+  .social-link {
+    gap: 10px;
+  }
+
+  .header-btns a,
+  .btn-two a,
+  .section-contents .btn-two a {
+    width: 100px;
+    padding: 8px 0px;
+    border-radius: 10px;
+  }
+
+  .btn-icon img {
+    width: 13px;
+  }
+
+  .header-btns a h4 {
+    font-weight: 600;
+    font-size: 10px;
+    padding-right: 8px;
+  }
+
+  .header-btns {
+    gap: 20px;
+  }
+}
+/* Home page - Hero section end */
