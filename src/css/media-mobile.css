@@ -246,3 +246,126 @@
   }
 }
 /* Home page skills and education section */
+
+/* About page skill section */
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  .skill-area .progress-item {
+    width: 100%;
+  }
+}
+/* About page skill section end */
+
+/* Home page - static content section */
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+  .static .resize {
+    padding: 0 20px;
+  }
+
+  .card-body {
+    padding: 30px;
+    display: flex;
+  }
+
+  .serviceCard-body:nth-child(2) {
+    padding: 30px 20px !important;
+    margin-top: 0;
+  }
+
+  .card-body,
+  .serviceCard-body {
+    padding: 30px 20px;
+  }
+
+  .cards-text h2 {
+    font-size: 19px;
+    margin: 0px 0px 12px 0px;
+  }
+
+  .cards-text p {
+    font-size: 14px;
+  }
+
+  .cards-icon img {
+    width: 55px;
+  }
+
+  .serviceCard-body .cards-icon img {
+    width: auto;
+  }
+
+  .cards-icon {
+    align-items: flex-start;
+  }
+
+  .cards-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    align-items: flex-start;
+  }
+
+  .cards-text p {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 781px) {
+  .static-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 50px) and (max-width: 320px) {
+  .static .resize {
+    padding: 0 15px;
+  }
+
+  .serviceCard-body:nth-child(2) {
+    padding: 30px 20px !important;
+    margin-top: 0;
+  }
+
+  .card-body,
+  .serviceCard-body {
+    padding: 30px 20px;
+  }
+
+  .static-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-body {
+    padding: 30px;
+    display: flex;
+  }
+
+  .cards-text h2 {
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+  }
+
+  .cards-text p {
+    font-size: 14px;
+  }
+
+  .cards-icon img {
+    width: 55px;
+  }
+
+  .cards-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    align-items: flex-start;
+  }
+
+  .cards-text p {
+    text-align: left;
+  }
+
+  .cards-icon {
+    align-items: flex-start;
+  }
+}
+/* Home static section end */
