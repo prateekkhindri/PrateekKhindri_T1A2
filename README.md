@@ -30,7 +30,7 @@ My website's primary goal is to promote my skills and attract future employers. 
 
 ### **Functionality / Features**
 
-The website is divided into 5 individual pages. The homepage [home.html]() includes a summary of my qualifications, experience, and education. Furthermore, the homepage links to each individual page on the website to improve the user experience. Each page has a header and a footer that includes links to Instagram, Twitter, LinkedIn, and GitHub. TThe project website includes a live demo as well as source code links to some of my previous work. The contact page includes my contact information as well as a static form.
+The website is divided into 5 individual pages. The homepage `home.html` includes a summary of my qualifications, experience, and education. Furthermore, the homepage links to each individual page on the website to improve the user experience. Each page has a header and a footer that includes links to Instagram, Twitter, LinkedIn, and GitHub. The project website includes a live demo as well as source code links to some of my previous work. The `contact page` includes my contact information as well as a static form.
 
 - The website functions well on all devices, from desktop computers to cellphones, thanks to its **_responsive design_**.
 
