@@ -6,7 +6,7 @@ The following is a README markdown document for Prateek Khindri's Portfolio Webs
 
 ### **Prateek Khindri's deployed website**
 
-Please visit the deployed portfolio website [by clicking here](https://prateekkhindriportfolio.netlify.app/). The site was deployed using [netlify](https://www.netlify.com/). Alternatively, please copy and paste the following link into a browser window.
+Please visit the deployed portfolio website by clicking [here](https://prateekkhindriportfolio.netlify.app/). The site was deployed using [netlify](https://www.netlify.com/). Alternatively, please copy and paste the following link into a browser window.
 
 ```
 https://prateekkhindriportfolio.netlify.app/
@@ -18,7 +18,7 @@ The github repository link can be found here [link](https://github.com/prateekkh
 
 ### **Presentation Video**
 
-The link to the video presentation can be found here [link](). The video was uploaded to
+The link to the video presentation can be found here [link](https://vimeo.com/user188718708). The video was uploaded to [Vimeo](https://vimeo.com/)
 
 ---
 
